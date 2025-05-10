@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "allowImportingTsExtensions": false
+  },
+  "include": ["src", "server", "server/types"],
+  "exclude": ["server/**/*.d.ts"],
+  "types": ["./server/types/xss-clean"]
+}
