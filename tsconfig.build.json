@@ -7,7 +7,7 @@
     "outDir": "dist",
     "allowImportingTsExtensions": false
   },
-  "include": ["src", "server", "server/types"],
+  "include": ["./src/**/*", "./server/**/*"],
   "exclude": ["server/**/*.d.ts"],
   "types": ["./server/types/xss-clean"]
 }
